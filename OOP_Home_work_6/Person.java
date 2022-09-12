@@ -1,4 +1,4 @@
-package OOP_Home_work_5;
+package OOP_Home_work_6;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,7 +13,7 @@ public abstract class Person {
     protected String password;
     protected List<Person> contactList = new ArrayList<>();
 
-    protected static Path path = Path.of("C:/Users/Akuloff/Desktop/Geek_Brains/1_Quarter/010_OOP/OOP_Home_works/OOP_Home_work_5/ContactList1.txt");
+    protected static Path path = Path.of(".\\OOP_Home_work_5\\ContactList.txt");
 
     public Person(String nickName) {
         this.nickName = nickName;
